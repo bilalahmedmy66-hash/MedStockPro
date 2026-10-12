@@ -1,0 +1,25 @@
+﻿# Pharmacy data and private records
+*.db
+*.sqlite
+*.sqlite3
+receipts/
+backups/
+
+# Generated builds and release packages
+build/
+dist/
+release/
+*.zip
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
